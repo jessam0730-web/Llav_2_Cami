@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección Romántica de Camili</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Collage de fondo -->
+    <div class="collage-background"></div>
+    <div class="overlay"></div>
+
+    <main class="container">
+        <!-- Encabezado del Disco -->
+        <header class="album-header">
+            <h1 class="album-title">COLECCIÓN ROMÁNTICA DE CAMILI</h1>
+            <p class="release-year">Camila - 2026</p>
+            <div class="group-logo">
+                <img src="logo.jfif" alt="Logo">
+            </div>
+        </header>
+      <section class="tracklist">
+    <button class="track-btn" onclick="goToSong('TODO CAMBIO', 'gO8-9OWzPOQ')">1. Todo Cambio</button>
+    <button class="track-btn" onclick="goToSong('SOLO PARA TI', 'o0BNTKbzElg')">2. Solo Para Ti</button>
+    <button class="track-btn" onclick="goToSong('COLECCIONISTA DE CANCIONES', 'jlySoaI0DGI')">3. Coleccionista de Canciones</button>
+    <button class="track-btn" onclick="goToSong('BÉSAME', 'biUYbAk-S1w')">4. Bésame</button>
+    <button class="track-btn" onclick="goToSong('ENTRE TUS ALAS', 'EHSxYKSgxiw')">5. Entre Tus Alas</button>
+    <button class="track-btn" onclick="goToSong('TE CONFIESO', 'a9kpM428afA')">6. Te Confieso</button>
+</section>
+        <footer class="designer-credits">
+            <p class="credits-title">Diseñado por:</p>
+            <p class="designer-name">Jeremy Samuel Yañez Canedo</p>
+            <div class="designer-contact">
+                <span><strong style="color: rgba(255,255,255,0.6);">Cel:</strong>63265250</span>
+                <span class="separator">|</span>
+                <span><strong style="color: rgba(255,255,255,0.6);">Email:</strong>jeremycanedo43@gmail.com</span>
+            </div>
+            <div class="brand-name">Je Sy Estudios</div>
+        </footer>
+    </main>
+    <div id="song-detail" class="song-detail-view">
+        <button class="close-btn" onclick="closeDetail()">✕ Volver</button>
+        <div id="detail-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
